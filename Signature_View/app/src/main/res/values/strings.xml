@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Student Finger Print Login</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="authenticate_fingerprint">Error authenticating fingerprint</string>
+    <string name="auth_successful">Fingerprint authentication successful</string>
+    <string name="Unknown_permission_request">Unrecognized permission request</string>
+    <string name="permission_refused">" User refused Fingerprint permission"</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="address_hint">Address</string>
+    <string name="name_hint">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="contact_hint">Contact number</string>
+    <string name="otp_hint">OTP</string>
+    <string name="studID_hint">Student ID</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="with_fingerprint">With Fingerprint</string>
+    <string name="with_fingerprint_and_password">With Fingerprint and Password</string>
+    <string name="login_with_fingerprint">LOGIN WITH FINGERPRINT</string>
+    <string name="login_now">LOGIN</string>
+    <string name="signature">Please Sign Here</string>
+
+
+    <string name="formTitle">Student Fingerprint System</string>
+    <string name="studName">Name: </string>
+    <string name="studPass">Password: </string>
+    <string name="studCfmPass">Confirm Password: </string>
+    <string name="studMod">Student ID: </string>
+    <string name="studYear">Select Year: </string>
+    <string name="studContact">Contact: </string>
+    <string name="requestOTP">Please enter the OTP</string>
+    <string name="requestBtn">REQUEST FOR OTP</string>
+    <string name="adminPass">Password:</string>
+    <string name="registerBtn">REGISTER</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="logoutBtn">LOGOUT</string>
+    <string name="cancelBtn">CANCEL</string>
+    <string name="backBtn">BACK</string>
+    <string name="nextBtn">NEXT</string>
+    <string name="saveBtn">SAVE</string>
+    <string name="clearBtn">CLEAR</string>
+    <string name="noAccount">Not Having an Account?</string>
+</resources>

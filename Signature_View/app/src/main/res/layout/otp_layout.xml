@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    android:background="#dddddd"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/requestOTP"
+        android:textSize="16sp"
+        android:id="@+id/tvOTP"/>
+
+    <EditText
+        android:id="@+id/editOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/otp_hint"
+        android:textColorHint="@color/colorLight"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_12sdp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        android:paddingTop="@dimen/_16sdp"
+        android:text="@string/loginBtn"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        android:paddingTop="@dimen/_16sdp"
+        android:text="@string/cancelBtn"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:textStyle="bold" />
+
+</LinearLayout>
